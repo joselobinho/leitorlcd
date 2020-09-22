@@ -69,6 +69,7 @@ class Application:
                               font="Verdana 15 bold", #//Fonte, tamanho, tipo
                               width=40, height=5,
                               relief="groove", #Efeito { solid,sunken, etc.. ou nada }
+                              justify=left,
                               command=self.close_exit)
 
         self.read_card.pack()
